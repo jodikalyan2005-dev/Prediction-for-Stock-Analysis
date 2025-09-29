@@ -1,4 +1,15 @@
-💰 **Stock Price Prediction using Time Series Analysis**
+**📈 Stock Price Prediction Project Result**
+The model attempts to predict the daily closing price of the stock using the prices from the previous seven days.
+
+Visualization: Actual vs. Predicted Prices
+The plot below shows the performance of the model on the testing data, comparing the actual daily closing prices to the predicted values.
+
+Evaluation Metrics
+The high value of the error metrics suggests that the simple Linear Regression model, while a good starting point, is insufficient for accurately capturing the volatility and complex non-linear patterns of stock prices in this limited dataset.
+
+Metric	Value	Interpretation
+Root Mean Squared Error (RMSE)	86.12	The average magnitude of the error (the distance between the predicted price and the actual price).
+Mean Absolute Error (MAE)	74.74	The average absolute difference between the predicted price and the actual price.💰 **Stock Price Prediction using Time Series Analysis**
 This project demonstrates a fundamental approach to time series forecasting by predicting the daily closing price of a stock using its historical data.
 
 🎯 **Project Goal**
